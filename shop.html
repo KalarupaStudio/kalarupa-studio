@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="gallery-header">
+        <nav>
+          <a href="index.html" class="brand">ArtSpace</a>
+          <div class="nav-links">
+            <a href="gallery.html">Gallery</a>
+            <a href="shop.html">Shop</a>
+            <a href="contact.html">Contact</a>
+          </div>
+        </nav>
+      </header>
+
+    <section class="shop">
+        <div class="item">
+            <img src="D:\RUBY\WORK\PERSONAL\images\img4.jpg" alt="Artwork 1">
+            <p>Digital Artwork - $10</p>
+            <button onclick="addToCart('Digital Artwork', 10)">Add to Cart</button>
+        </div>
+
+        <div class="item">
+          <img src="D:\RUBY\WORK\PERSONAL\images\img5.jpg" alt="Artwork 2">
+          <p>Digital Artwork - $10</p>
+          <button onclick="addToCart('Digital Artwork', 10)">Add to Cart</button>
+      </div>
+
+      <div class="item">
+        <img src="D:\RUBY\WORK\PERSONAL\images\img6.jpg" alt="Artwork 3">
+        <p>Digital Artwork - $10</p>
+        <button onclick="addToCart('Digital Artwork', 10)">Add to Cart</button>
+    </div>
+     
+    <div class="item">
+      <img src="D:\RUBY\WORK\PERSONAL\images\img7.jpg" alt="Artwork 4">
+      <p>Digital Artwork - $10</p>
+      <button onclick="addToCart('Digital Artwork', 10)">Add to Cart</button>
+  </div>
+
+  <div class="item">
+    <img src="D:\RUBY\WORK\PERSONAL\images\img8.jpg" alt="Artwork 5">
+    <p>Digital Artwork - $10</p>
+    <button onclick="addToCart('Digital Artwork', 10)">Add to Cart</button>
+</div>
+
+    </section>
+
+    <h2>Cart</h2>
+    <ul id="cart-list"></ul>
+    <p>Total: $<span id="total-price">0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
